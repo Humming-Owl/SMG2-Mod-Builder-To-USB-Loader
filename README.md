@@ -21,7 +21,7 @@ You can either download the hack and place the compressed file at the "mods" fol
 
 # Download
 
-
+https://github.com/Humming-Owl/SMG2-Mod-Builder-To-USB-Loader/archive/refs/heads/master.zip
 
 # SMG2 Rom Hack List:
 
