@@ -54,7 +54,7 @@ You can either download the hack and place the compressed file at the "mods" fol
 
 I tested some of the hacks on USB Loader GX and they didn't work (I don't know why), because of that I recommend using ULoader to use the hacks, I've never encounter errors with it.
 
-ULoader website --> 
+ULoader website --> https://wii.scenebeta.com/noticia/uloader
 
 # Thanks to:
 
