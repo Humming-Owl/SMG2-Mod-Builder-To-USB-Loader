@@ -1,0 +1,30 @@
+Instructions to apply savefiles:
+
+For:
+
+SMG2: The New Green Stars
+SMG2: The Kaizo Green Stars
+
+Dependencies:
+
+- SaveGame Manager GX
+
+Steps:
+
+1) First get the patched ISO/WBFS file from the tool used.
+2) Put the modded image in the USB drive with Wii Backup Manager.
+3) Open the game from the USB Loader you are using.
+4) Create a new world (your don't need to open it and play in it just create it).
+4) Then, close the game and go to the Homebrew Channel (be sure that SaveGame Manager GX is on your SD Card).
+5) Open SaveGame Manager GX.
+6) Search in the Wii section the SMG2 save that has the "2NGS" or "2KGS" identifier (depending on the hack you selected).
+7) Extract the savefile to the SD card in a custom new folder (choose a name for it you will need to locate it later).
+8) Close SaveGame Manager GX and the Homebrew Channel.
+9) Remove the SD card from your Wii.
+10) Plug the SD Card into your computer.
+11) Search for the folder you created and go futher into the folder until you find the "banner.bin" and "GameData.bin" files.
+12) Replace those files with the ones provided in the "savefile" folder of the patcher.
+13) Place your SD card in the Wii and open SaveGame Manager GX again.
+14) In the SD Card section search for the savefiles you replaced.
+15) Install the savefile "2NGS" or "2KGS" on the Wii.
+16) Done. When you open the game again, a Luma world with 120 stars should be there.

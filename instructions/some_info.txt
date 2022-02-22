@@ -1,0 +1,17 @@
+Information:
+
+- The "ISO-Builder.bat" gets in charge on the process of copying and replacing files, and also editing the game's ID (WIT). The ASM is already written in Gecko Codes (in the "codes" folder) or is applied directly to the "main.dol" file through a patch file ("patches" folder).
+
+- The "mods_data.bat" is where the data used by the "ISO-Builder.bat" is stored (the most generic info). There is a little legend there to understand all the arrays declared. In this way is easier to add new mods to the tool.
+
+- The "tools" folder is storing some additional tools to make downloads (wget), extraction (7z) and patching binary files (patch) possible.
+
+- I am storing the hacks on Internet Archive because I want to preserve them for the future. As some hacks were hard to find it is better to store them on a secure location in case something happens. Also it serves as a basedata in case you just want to know how many SMG1/2 hacks are there for playing them on Dolphin or Wii with your SMG1/2 disc.
+
+Hacks storage link --> https://archive.org/details/SMG_1-2_Rom_Hacks
+
+- I am writing complex (long) ASM code into Gecko Codes and applying it on the "main.dol" file with the GeckoLoader tool of JoshuaMKW (this wouldn't be possible without its tool).
+
+- You don't have to use this tool if you can play the game with the original disc or on Dolphin. I made it because of the people that want to play a SMG2 mods and don't have a good computer to run Dolphin on, or the original game disc to work with Riivolution. I also made it because discs aren't eternal, they have a limited lifetime so Riivolution will get useless overtime and playing Wii games will only be possible through USB Backups in the future (for some people). If that happens I hope there is a better way to play SMG2 mods with USB Backups or that the method of this tool to patch ISO/WBFS files can be improved. Either way enjoy the tool.
+
+- If you know how to improve the tool or want to add a new hack, let me know! Open an Issue in my GitHub repository. I will be there as long as I can.
