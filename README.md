@@ -58,7 +58,7 @@ ULoader website --> https://wii.scenebeta.com/noticia/uloader
 
 # Thanks to:
 
-The authors of these hacks. 
-Wiimm for his excellent tool. 
-JoshuaMKW for his GeckoLoader program that allows me to inject much more than the upper limit of Gecko codes into the "main.dol" file. 
-Viktormax3 and Dynexyst (I learned from their tools how to make this one).
+- The authors of these hacks. 
+- Wiimm for his excellent tool. 
+- JoshuaMKW for his GeckoLoader program that allows me to inject much more than the upper limit of Gecko codes into the "main.dol" file. 
+- Viktormax3 and Dynexyst (I learned from their tools how to make this one).
