@@ -1,3 +1,5 @@
+# In process of update
+
 # SMG2-Mod-Builder-To-USB-Loader
 
 If you want to contribute improving the tool and/or with a new hack go to "Issues" and open a new one.
