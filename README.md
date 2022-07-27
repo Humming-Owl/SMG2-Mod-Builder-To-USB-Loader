@@ -58,6 +58,8 @@ I tested some of the hacks on USB Loader GX and they didn't work (I don't know w
 
 ULoader website --> https://wii.scenebeta.com/noticia/uloader
 
+Also, play the hacks setting the language to English, I tried to play some hacks on Spanish and when talking to an NPC the game crashed, but on English everything went correctly. 
+
 # Thanks to:
 
 - The authors of these hacks. 
