@@ -65,7 +65,7 @@ ULoader website --> https://wii.scenebeta.com/noticia/uloader
 
 Also, play the hacks setting the language to English, I tried to play some hacks on Spanish (for example) and when talking to an NPC the game crashed, but on English everything went correctly.
 
-I've only tested the hacks with the USA version of SMG2 so I really don't know if the other regional versions work 100% but they should.
+I've only tested the hacks with the USA version of SMG2 so I really don't know if the other regional versions work 100%, but they should.
 
 # Thanks to:
 
