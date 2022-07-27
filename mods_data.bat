@@ -170,17 +170,31 @@ set SMG2DX[7]=Super Mario Galaxy Deluxe
 set SMG2DX[8]=SB4EXD
 set SMG2DX[9]=G2DX
 
-:: ====================================
-:: Super Mario Galaxy 2: BlueXD Edition
+:: ===============================================
+:: Super Mario Galaxy 2: BlueXD Edition (old Demo)
+
+:: set SMG2BXDE[0]=SMG2BXDE
+:: set SMG2BXDE[1]=Super Mario Galaxy 2: BlueXD Edition
+:: set SMG2BXDE[2]=
+:: set SMG2BXDE[3]=SMG2 BlueXD Edition.rar
+:: set SMG2BXDE[4]=165.9mb
+:: set SMG2BXDE[5]=
+:: set SMG2BXDE[6]=SMG2 BlueXD Edition OG
+:: set SMG2BXDE[7]=SMG2CustomLevels
+:: set SMG2BXDE[8]=
+:: set SMG2BXDE[9]=2BXD
+
+:: ====================================================
+:: Super Mario Spectral (SMG2: BlueXD Edition new Demo)
 
 set SMG2BXDE[0]=SMG2BXDE
-set SMG2BXDE[1]=Super Mario Galaxy 2: BlueXD Edition
-set SMG2BXDE[2]=
-set SMG2BXDE[3]=SMG2 BlueXD Edition.rar
-set SMG2BXDE[4]=165.9mb
+set SMG2BXDE[1]=Super Mario Spectral (New Demo)
+set SMG2BXDE[2]=(E/P/J/K/W)
+set SMG2BXDE[3]=Super Mario Spectral Demo.rar
+set SMG2BXDE[4]=161mb
 set SMG2BXDE[5]=
-set SMG2BXDE[6]=SMG2 BlueXD Edition OG
-set SMG2BXDE[7]=SMG2CustomLevels
+set SMG2BXDE[6]=Super Mario Spectral Demo
+set SMG2BXDE[7]=SpectralDemo
 set SMG2BXDE[8]=
 set SMG2BXDE[9]=2BXD
 
@@ -298,3 +312,17 @@ set SMG2TLL[6]=SMGLL DEMO
 set SMG2TLL[7]=SMGLLDEMO
 set SMG2TLL[8]=
 set SMG2TLL[9]=GTLL
+
+:: ============================
+:: Super Mario Starshine - Demo
+
+set SMSS[0]=SMSS
+set SMSS[1]=Super Mario Starshine - Demo
+set SMSS[2]=(v1.4 - E/P/J)
+set SMSS[3]=Super Mario Starshine Demo v1.4.rar
+set SMSS[4]=106mb
+set SMSS[5]=
+set SMSS[6]=Super Mario Starshine Demo v1.4
+set SMSS[7]=Super Mario Starshine
+set SMSS[8]=
+set SMSS[9]=MSS2
