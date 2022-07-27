@@ -1,8 +1,12 @@
-# In process of update
+# Changelog:
+
+- Added Super Mario Starshine (Demo - v1.4 - E/P/J)
+- Updated Super Mario Galaxy 2: BlueXD Edition Demo (Now called Super Mario Spectral - Demo)
+
 
 # SMG2-Mod-Builder-To-USB-Loader
 
-If you want to contribute improving the tool and/or with a new hack go to "Issues" and open a new one.
+If you have a question, a problem, want to contribute improving the tool or to request a new hack go to "Issues" and open a new one.
 
 If you have the original disc image of SMG2 or you can use Dolphin then you don't need at all to use this tool, this was designed for those who don't have the original game disc and/or a decent computer to run Dolphin. More info at "instructions/some_info.txt"
 
@@ -38,7 +42,7 @@ https://github.com/Humming-Owl/SMG2-Mod-Builder-To-USB-Loader/archive/refs/heads
 - Super Mario Galaxy 2.5 (DEMO)
 - Outer Mario Galaxy
 - Super Mario Galaxy Deluxe
-- Super Mario Galaxy 2: BlueXD Edition (E/P/J/K/W)
+- Super Mario Spectral (formerly SMG2: BlueXD Edition - E/P/J/K/W - DEMO)
 - Super Mario Galaxy 2: Daredevil Challenge
 - Neo Mario Galaxy (2020 Update - E/P/J)
 - Super Mario Galaxy 64: Holiday Special
@@ -47,18 +51,21 @@ https://github.com/Humming-Owl/SMG2-Mod-Builder-To-USB-Loader/archive/refs/heads
 - Super Mario Galaxy 2: Underwater Edition
 - Super Mario Galaxy 2: The Green Star Festival
 - Super Mario Galaxy: The Lost Levels (DEMO - E/P/J)
+- Super Mario Starshine (DEMO - E/P/J - v1.4)
 
 # Hacks not added yet:
 
 - Super Mario Galaxy 2 Plus (DEMO) (Don't know where to find it)
 
-# Recomendation:
+# Recomendations and notes:
 
 I tested some of the hacks on USB Loader GX and they didn't work (I don't know why), because of that I recommend using ULoader to use the hacks, I've never encounter errors with it.
 
 ULoader website --> https://wii.scenebeta.com/noticia/uloader
 
-Also, play the hacks setting the language to English, I tried to play some hacks on Spanish and when talking to an NPC the game crashed, but on English everything went correctly. 
+Also, play the hacks setting the language to English, I tried to play some hacks on Spanish (for example) and when talking to an NPC the game crashed, but on English everything went correctly.
+
+I've only tested the hacks with the USA version of SMG2 so I really don't know if the other regional versions work 100% but they should.
 
 # Thanks to:
 
