@@ -42,7 +42,7 @@ https://github.com/Humming-Owl/SMG2-Mod-Builder-To-USB-Loader/archive/refs/heads
 - Super Mario Galaxy 2.5 (DEMO)
 - Outer Mario Galaxy
 - Super Mario Galaxy Deluxe
-- Super Mario Spectral (formerly SMG2: BlueXD Edition - E/P/J/K/W - DEMO)
+- Super Mario Spectral (also known as SMG2: BlueXD Edition - E/P/J/K/W - DEMO)
 - Super Mario Galaxy 2: Daredevil Challenge
 - Neo Mario Galaxy (2020 Update - E/P/J)
 - Super Mario Galaxy 64: Holiday Special
