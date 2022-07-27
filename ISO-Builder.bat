@@ -76,7 +76,7 @@ echo  8. Super Mayro Galaxy Twoad
 echo  9. Super Mario Galaxy 2.5 (DEMO)
 echo 10. Outer Mario Galaxy
 echo 11. Super Mario Galaxy Deluxe
-echo 12. Super Mario Galaxy 2: BlueXD Edition (E/P/J/K/W)
+echo 12. Super Mario Spectral (SMG2: BlueXD Edition new Demo - E/P/J/K/W)
 echo 13. Super Mario Galaxy 2: Daredevil Challenge
 echo 14. Neo Mario Galaxy (2020 Build - E/P/J)
 echo 15. Super Mario Galaxy 64: Holiday Special
@@ -85,6 +85,7 @@ echo 17. Super Mario Galaxy 2: The Green Star Festival
 echo 18. Super Mario Galaxy 2: Underwater Edition
 echo 19. Super Mario Galaxy 2: Master Mode
 echo 20. Super Mario Galaxy 2: The Lost Levels (DEMO)
+echo 21. Super Mario Starshine (DEMO - E/P/J)
 echo.
 
 set /P apply_mod=Select Mod number to apply to ISO/WBFS image: 
@@ -128,6 +129,8 @@ if %apply_mod%==18 (set mod=SMG2UE)
 if %apply_mod%==19 (set mod=SMG2MM)
 
 if %apply_mod%==20 (set mod=SMG2TLL)
+
+if %apply_mod%==21 (set mod=SMSS)
 
 
 ::=====================
@@ -237,6 +240,8 @@ if %mod%==SMG2BXDE GOTO :SMG2BXDE_custom
 if %mod%==SMG2MM GOTO :SMG2MM_custom
 
 if %mod%==SMG2TLL GOTO :SMG2TLL_custom
+
+if %mod%==SMSS GOTO :SMSS_custom
 
 :: ================================== 
 
@@ -427,17 +432,17 @@ if exist ".\temp\DATA\" (%PATCH% ".\temp\DATA\sys\main.dol" < ".\patches\!%mod%[
 
 if not exist ".\temp\DATA\" (%PATCH% ".\temp\sys\main.dol" < ".\patches\!%mod%[8]!.patch" >nul)
 
-if exist ".\temp\DATA" (
+:: if exist ".\temp\DATA" (
 
-xcopy ".\mods\!%mod%[6]!\Regions\NTSC (USA)\*" ".\temp\DATA\files\" /E /Y >nul
+:: xcopy ".\mods\!%mod%[6]!\Regions\NTSC (USA)\*" ".\temp\DATA\files\" /E /Y >nul
 
-xcopy ".\mods\!%mod%[6]!\Regions\PAL (Europe)\*" ".\temp\DATA\files\" /E /Y >nul)
+:: xcopy ".\mods\!%mod%[6]!\Regions\PAL (Europe)\*" ".\temp\DATA\files\" /E /Y >nul)
 
-if not exist ".\temp\DATA" (
+:: if not exist ".\temp\DATA" (
 
-xcopy ".\mods\!%mod%[6]!\Regions\NTSC (USA)\*" ".\temp\files\" /E /Y >nul
+:: xcopy ".\mods\!%mod%[6]!\Regions\NTSC (USA)\*" ".\temp\files\" /E /Y >nul
 
-xcopy ".\mods\!%mod%[6]!\Regions\PAL (Europe)\*" ".\temp\files\" /E /Y >nul)
+:: xcopy ".\mods\!%mod%[6]!\Regions\PAL (Europe)\*" ".\temp\files\" /E /Y >nul)
 
 echo.
 
@@ -515,5 +520,31 @@ xcopy ".\mods\!%mod%[6]!\!%mod%[7]!\SystemData\YellowChip.arc" ".\temp\files\Obj
 if exist ".\temp\DATA" (%PATCH% ".\temp\DATA\sys\main.dol" < ".\patches\%SMG2TLL[8]%_%ddpatch%" >nul)
 
 if not exist ".\temp\DATA" (%PATCH% ".\temp\sys\main.dol" < ".\patches\%SMG2TLL[8]%_%ddpatch%" >nul)
+
+GOTO :final_steps
+
+:: ====
+:: SMSS
+:: ====
+
+:SMSS_custom
+
+echo.
+
+set /P ssreg=Region? (Supported: e, p, j): 
+
+echo Applying hex patches... 
+
+if %ssreg%==e (set SMSS[8]=MSSE01)
+
+if %ssreg%==p (set SMSS[8]=MSSP01)
+
+if %ssreg%==j (set SMSS[8]=MSSJ01)
+
+if exist ".\temp\DATA\" (%PATCH% ".\temp\DATA\sys\main.dol" < ".\patches\!%mod%[8]!.patch" >nul)
+
+if not exist ".\temp\DATA\" (%PATCH% ".\temp\sys\main.dol" < ".\patches\!%mod%[8]!.patch" >nul)
+
+echo.
 
 GOTO :final_steps
