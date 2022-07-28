@@ -17,7 +17,7 @@ If you have the original disc image of SMG2 or you can use Dolphin then you don'
 
 # Usage:
 
-- Put the ISO/WBFS Image in the same path as the ISO-Builder.bat
+- Put the ISO/WBFS Image in the same path as the ISO-Builder.bat (preferably use WBFS files)
 - Execute the ISO-Builder.bat
 - Follow instructions on CMD
 
